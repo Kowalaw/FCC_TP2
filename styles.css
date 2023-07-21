@@ -1,0 +1,59 @@
+html{
+    margin: 0px;
+}
+#image{
+    max-width: 100%;
+    height:  auto;
+    display: block;
+    justify-content: center;
+}
+body{
+    background-image:url(https://th.bing.com/th/id/R.06bf08e09377836003ed894c36d71d1c?rik=gCpAOgHhSr4Iww&pid=ImgRaw&r=0);
+}
+#main{
+    background-color: #455a64CC;
+    margin-left: 10%;
+    margin-right: 40%;
+    color: white;
+    width: 750px;
+    padding: 25px;
+    border-radius: 45px;
+    font-family: Tahoma;
+}
+h1{
+    font-size: 50px;
+    margin-top: -5px;
+    margin-left: 35px;
+    font-family: Tahoma;
+    text-shadow: 8px -4px 5px #00bfff99;
+}
+h2{
+    font-size: 35px;
+    padding: 0 0 0 40px;
+}
+ 
+a{
+    color: yellow;
+}
+ 
+a:visited{
+    color: orange;
+}
+ 
+a:hover{
+    color: white;
+}
+ 
+hr{
+    background: linear-gradient(90deg,#0000FF,#FF0000);
+    height: 5px;
+    border: none;
+}
+#tribute-info, #img-caption{
+    text-align:center;
+}
+@media (max-width: 850px){
+    #main{
+    margin: 0px;
+    }
+}
