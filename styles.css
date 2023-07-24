@@ -6,6 +6,7 @@ html{
     height:  auto;
     display: block;
     justify-content: center;
+    border-radius: 15px;
 }
 body{
     background-image:url(https://th.bing.com/th/id/R.06bf08e09377836003ed894c36d71d1c?rik=gCpAOgHhSr4Iww&pid=ImgRaw&r=0);
